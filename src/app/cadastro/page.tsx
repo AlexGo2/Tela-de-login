@@ -24,7 +24,7 @@ export default function Cadastro() {
           <TextField variant="outlined" type="text" label="Nome completo" fullWidth size='medium' sx={{mb: 1}}/>
           <TextField variant="outlined" type="text" label="E-mail" fullWidth size='medium' sx={{mb: 1}}/>
           <TextField variant="outlined" type="password" label="Senha" fullWidth size='medium'sx={{mb: 1}}/>
-          <TextField variant="outlined" type="password" label="Senha" fullWidth size='medium'sx={{mb: 1}}/>
+          <TextField variant="outlined" type="password" label="Repetir Senha" fullWidth size='medium'sx={{mb: 1}}/>
           <Button variant='contained'fullWidth>Entrar</Button>
         </Box>
       </Box>
