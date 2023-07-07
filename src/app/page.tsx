@@ -6,7 +6,6 @@ import {
   TextField,
   Button,
   Link,
-  FormControl,
 } from "@mui/material";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
@@ -81,7 +80,6 @@ export default function Home() {
             <Typography color="red" variant="caption">
               {errors.password?.message}
             </Typography>
-
             <Button type="submit" variant="contained" fullWidth>
               Entrar
             </Button>
